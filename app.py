@@ -11,7 +11,7 @@ store = [
 def get_data():
     return {"stores":store}
 
-@app.post("/create")
+@app.post("/")
 def create():
     request_data = request.get_json()
     new_val = {"name":request_data["name"], "location":request_data["location"]}
