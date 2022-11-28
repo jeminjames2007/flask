@@ -1,5 +1,5 @@
 FROM python:3.10
-EXPOSE 5000
+EXPOSE 6000
 WORKDIR /app/
 COPY . .
 RUN python -m venv /opt/venv
